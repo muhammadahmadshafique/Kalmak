@@ -47,13 +47,13 @@ function Navbar() {
               <Link to="/Blog">Blog</Link>
             </button>
             <button className="uppercase font-poppins navtext whitespace-nowrap hover:underline decoration-[#89B374] decoration-4">
-              <Link to="/NearMe">Near me</Link>
+              <Link to="/ListingDiscription">Near me</Link>
             </button>
             <button className="uppercase font-poppins navtext whitespace-nowrap hover:underline decoration-[#89B374] decoration-4">
-              <Link to="/Explore">Explore</Link>
+              <Link to="/Detaildescription">Explore</Link>
             </button>
             <button className="uppercase font-poppins navtext whitespace-nowrap  navbuttoncontact">
-              <Link to="/BecomeHost">Become a Host</Link>
+              <Link to="/">Become a Host</Link>
             </button>
           </div>
         </div>
@@ -72,16 +72,16 @@ function Navbar() {
             <Link to="/">About</Link>
           </button>
           <button className="uppercase font-poppins navtext whitespace-nowrap hover:underline decoration-[#89B374]  decoration-4">
-            <Link to="/Story">Blog</Link>
+            <Link to="/Blog">Blog</Link>
           </button>
           <button className="uppercase font-poppins navtext whitespace-nowrap hover:underline decoration-[#89B374] decoration-4">
-            <Link to="/Work">Near me</Link>
+            <Link to="/ListingDiscription">Near me</Link>
           </button>
           <button className="uppercase font-poppins navtext whitespace-nowrap hover:underline decoration-[#89B374]  decoration-4">
-            <Link to="/Services">Explore</Link>
+            <Link to="/Detaildescription">Explore</Link>
           </button>
           <button className="uppercase font-poppins navtext whitespace-nowrap navbuttoncontact">
-            <Link to="/ContactUs">Become a Host</Link>
+            <Link to="/">Become a Host</Link>
           </button>
         </motion.div>
       </nav>

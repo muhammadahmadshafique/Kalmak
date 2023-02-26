@@ -13,12 +13,13 @@ export default function App() {
       {/* <Work/> */}
       {/* <ContactUs/> */}
         <Routes>
-          {/* <Route path="/" element={<Home />} /> */}
-          <Route path="/" element={<BecomeHost/>} />
-          {/* <Route path="/Story" element={<Story />} />
-          <Route path="/Services" element={<Services />} />
-          <Route path="/Work" element={<Work />} />
-          <Route path="/ContactUs" element={<ContactUs />} /> */}
+        <Route path="/" element={<BecomeHost/>} />
+        <Route path="/Home" element={<Home />} />
+
+          {/* <Route path="/" element={<BecomeHost/>} /> */}
+          <Route path="/Blog" element={<Blog />} />
+          <Route path="/ListingDiscription" element={<ListingDiscription />} />
+          <Route path="/Detaildescription" element={<Detaildescription />} />
         </Routes>
     </div>
   );
