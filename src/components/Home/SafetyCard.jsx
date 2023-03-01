@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function SafetyCard() {
+function SafetyCard({who}) {
   return (
     <div className="max-w-sm rounded-xl overflow-hidden shadow-lg border border-[#e0dbdb] ">
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">
-        kalmak Camper' standards
+        kalmak {who} standards
         </div>
         <p className="placepara">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempus porta rutrum. Aliquam eros elit, ultricies et congue eget, vehicula eu sapien. Vestibulum eu felis id sem feugiat fermentum at non lacus. In ac convallis nisl
